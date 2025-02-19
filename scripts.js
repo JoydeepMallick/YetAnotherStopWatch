@@ -32,6 +32,9 @@ function stop() {
     }
 }
 
+//in order to find the elapsed time, we actually need Date.now() - Date.now() 
+// refered this : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now#measuring_time_elapsed
+
 function update() {
     const currenttime = Date.now();
     elapsedtime = currenttime - starttime;
