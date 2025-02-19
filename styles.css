@@ -1,0 +1,62 @@
+body{
+    background-color: hsla(160, 100%, 47%, 0.145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#heading{
+    font-size: 2.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+#stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid hsl(0, 0%, 0%);
+    border-radius: 50px;
+    padding: 10px;
+    background-color: hsla(145, 100%, 54%, 0.145);
+}
+
+#display{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#controls button{
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.7s ease-out;
+}
+
+#start{
+    background-color: rgb(2, 255, 2);
+}
+
+#start:hover{
+    background-color: hsl(120, 100%, 40%);
+}
+
+#stop{
+    background-color: rgb(255, 71, 71);
+}
+
+#stop:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+
+#reset{
+    background-color: rgb(251, 255, 0);
+}
+
+#reset:hover{
+    background-color: hsl(60, 100%, 40%);
+}
